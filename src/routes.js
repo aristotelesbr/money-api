@@ -1,9 +1,9 @@
-import { Router } from "express";
+import { Router } from 'express';
 
-import ApplicationController from "../src/app/ApplicationController";
+import ApplicationController from './app/ApplicationController';
 
 const routes = new Router();
 
-routes.get("/", ApplicationController.index);
+routes.get('/', ApplicationController.index);
 
 export default routes;

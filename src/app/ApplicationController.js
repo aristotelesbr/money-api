@@ -1,8 +1,6 @@
 class ApplicationController {
   async index(req, res) {
-    return res.status(200).json({
-      msg: "Hello from Express!"
-    });
+    return res.json({ msg: 'Hello from Express!!!' });
   }
 }
 
